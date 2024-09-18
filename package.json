@@ -1,0 +1,19 @@
+{
+  "name": "grant-management-app",
+  "version": "1.0.0",
+  "description": "Grant Management System using Express, Postmark, and Airtable",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "nodemon src/app.js"
+  },
+  "dependencies": {
+    "airtable": "^0.11.4",
+    "body-parser": "^1.19.0",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.1",
+    "g": "^2.0.1",
+    "ngrok": "^5.0.0-beta.2",
+    "nodemon": "^3.1.5",
+    "postmark": "^2.7.0"
+  }
+}
